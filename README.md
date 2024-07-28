@@ -27,7 +27,7 @@ The Credit Card Fraud Detection project focuses on identifying fraudulent transa
    - Visualize confusion matrix, ROC curve, and precision-recall curve.
 
 ### Files
-- `credit_card_fraud_detection.ipynb`: Jupyter notebook containing code and analysis for credit card fraud detection.
+- [credit_card_fraud_detection.ipynb](Encryptix Task 4.ipynb): Jupyter notebook containing code and analysis for credit card fraud detection.
 
 ## Task 2: Customer Churn Prediction
 
