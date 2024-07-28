@@ -74,7 +74,7 @@ The Spam Detection project aims to classify SMS messages as either "ham" (legiti
    - Implement a simple user interface to input SMS text and predict if it's ham or spam.
 
 ### Files
-- `Encryptix Task 4.ipynb`: Jupyter notebook containing code and analysis for spam detection.
+- [Spam SMS Detection](Encryptix%20Task%204.ipynb): Jupyter notebook containing code and analysis for spam detection.
 
 ## Installation
 
@@ -94,6 +94,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ## Usage
 
-1. **Spam Detection**: Open `spam_detection.ipynb` in Jupyter Notebook, follow the steps for preprocessing, training, and predicting spam messages.
-2. **Credit Card Fraud Detection**: Open `credit_card_fraud_detection.ipynb`, and follow the steps for data processing, model training, and evaluation.
-3. **Customer Churn Prediction**: Open `customer_churn_prediction.ipynb`, and execute the code for preprocessing, feature engineering, and model evaluation.
+1. **Credit Card Fraud Detection**: Open `credit_card_fraud_detection.ipynb`, and follow the steps for data processing, model training, and evaluation.
+2. **Customer Churn Prediction**: Open `customer_churn_prediction.ipynb`, and execute the code for preprocessing, feature engineering, and model evaluation.
+3. **Spam Detection**: Open [Spam SMS Detection](Encryptix%20Task%204.ipynb) in Jupyter Notebook, follow the steps for preprocessing, training, and predicting spam messages.
