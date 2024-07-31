@@ -13,18 +13,18 @@ The Credit Card Fraud Detection project focuses on identifying fraudulent transa
 
 ### Tasks
 1. **Data Preprocessing**:
-   - Load and explore the credit card dataset from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection).
-   - Handle missing values and encode categorical variables.
-   - Balance the dataset using upsampling.
+   - Loaded and explored the credit card dataset from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection).
+   - Handled missing values and encoded categorical variables.
+   - Balanced the dataset using upsampling.
 
 2. **Feature Engineering**:
-   - Create features from categorical data using `LabelEncoder`.
-   - Drop unnecessary columns and split data into features and target variables.
+   - Created features from categorical data using `LabelEncoder`.
+   - Dropped unnecessary columns and split data into features and target variables.
 
 3. **Model Training and Evaluation**:
-   - Train a `RandomForestClassifier` on the training data.
-   - Evaluate model performance using metrics such as accuracy, precision, recall, F1-score, ROC AUC, and PR AUC.
-   - Visualize confusion matrix, ROC curve, and precision-recall curve.
+   - Trained a `RandomForestClassifier` on the training data.
+   - Evaluated model performance using metrics such as accuracy, precision, recall, F1-score, ROC AUC, and PR AUC.
+   - Visualized confusion matrix, ROC curve, and precision-recall curve.
 
 ### Files
 - [Credit Card Fraud Detection](https://github.com/Solo-Ojay/Encryptix/blob/main/Encryptix%20Task%202%20(2).ipynb): Jupyter notebook containing code and analysis for credit card fraud detection.
@@ -36,17 +36,17 @@ The Customer Churn Prediction project is aimed at predicting whether a customer 
 
 ### Tasks
 1. **Data Preprocessing**:
-   - Load and explore the customer churn dataset from [Kaggle](https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction).
-   - Handle missing values and drop unnecessary columns.
-   - Encode categorical features using one-hot encoding.
+   - Loaded and explored the customer churn dataset from [Kaggle](https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction).
+   - Handled missing values and dropped unnecessary columns.
+   - Encoded categorical features using one-hot encoding.
 
 2. **Feature Scaling and Balancing**:
-   - Scale numerical features using `MinMaxScaler`.
-   - Use SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance.
+   - Scaled numerical features using `MinMaxScaler`.
+   - Used SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance.
 
 3. **Model Training and Evaluation**:
-   - Train a `RandomForestClassifier` on the resampled training data.
-   - Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.
+   - Trained a `RandomForestClassifier` on the resampled training data.
+   - Evaluated model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ### Files
 - [Customer Churn Prediction](https://github.com/Solo-Ojay/ENCRYPTIX/blob/main/Encryptix%20Task%203.ipynb): Jupyter notebook containing code and analysis for customer churn prediction.
@@ -58,20 +58,20 @@ The Spam Detection project aims to classify SMS messages as either "ham" (legiti
 
 ### Tasks
 1. **Data Preprocessing**:
-   - Load and clean the SMS dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
-   - Combine and drop unnecessary columns.
-   - Convert labels to binary format (ham: 0, spam: 1).
+   - Loaded and cleaned the SMS dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
+   - Combined and dropped unnecessary columns.
+   - Converted labels to binary format (ham: 0, spam: 1).
 
 2. **Text Vectorization**:
-   - Use `CountVectorizer` to convert text data into numerical feature vectors.
+   - Used `CountVectorizer` to convert text data into numerical feature vectors.
 
 3. **Model Training and Evaluation**:
-   - Train a `MultinomialNB` (Naive Bayes) model on the training data.
-   - Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.
-   - Make predictions and classify individual SMS messages.
+   - Trained a `MultinomialNB` (Naive Bayes) model on the training data.
+   - Evaluated model performance using metrics such as accuracy, precision, recall, and F1-score.
+   - Made predictions and classified individual SMS messages.
 
 4. **Interactive Prediction**:
-   - Implement a simple user interface to input SMS text and predict if it's ham or spam, [Spam Detector](https://blank-app-ngbvl7fzyb.streamlit.app/).
+   - Implemented a simple user interface to input SMS text and predicted if it's ham or spam, [Spam Detector](https://blank-app-ngbvl7fzyb.streamlit.app/).
 
 ### Files
 - [Spam SMS Detection](https://github.com/Solo-Ojay/Encryptix/blob/main/Encryptix%20Task%204%20(1).ipynb): Jupyter notebook containing code and analysis for spam detection.
